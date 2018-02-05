@@ -1,0 +1,35 @@
+{
+  "name": "hotsite-82-coinf",
+  "version": "1.0.0",
+  "description": "Hotsite para a 82 reunião ordinária do COINF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IFS-GLO/Hotsite-82-Reuniao-Ordinaria-do-CONIF.git"
+  },
+  "author": "Raphael F.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IFS-GLO/Hotsite-82-Reuniao-Ordinaria-do-CONIF/issues"
+  },
+  "homepage": "https://github.com/IFS-GLO/Hotsite-82-Reuniao-Ordinaria-do-CONIF#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "counterup": "^1.0.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jquery-countdown": "^2.2.0",
+    "owl.carousel": "^2.2.0",
+    "popper.js": "^1.12.9",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
