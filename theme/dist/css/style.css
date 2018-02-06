@@ -19,8 +19,7 @@ h2 {
   font-weight: 700;
 }
 
-h4,
-h5 {
+h4, h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -49,8 +48,7 @@ h5 {
   height: 100vh;
 }
 
-.navbar-custom,
-.navbar-custom-blog {
+.navbar-custom, .navbar-custom-blog {
   font-family: 'Open sans';
   font-size: 12px;
   font-weight: 400;
@@ -179,7 +177,7 @@ h5 {
 }
 
 #tourism {
-  background: #f1c40f;
+  background: #bdc3c7;
   border-top: 1px solid #FFF;
   padding: 70px 0 90px 0;
 }
@@ -279,79 +277,73 @@ h5 {
   text-transform: uppercase;
 }
 
-#gallery {
-  padding: 70px 0 90px 0;
-}
-
-#testimonial {
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-  background-image: url(http://wpthemecube.com/eventr/wp-content/uploads/2015/07/bg-testimonial.png?id=640) !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background: #fac42b;
-  color: #ffffff;
-  padding: 0;
-}
-
-#testimonial .testimonial-inner {
-  background: rgba(0, 0, 0, 0.7);
-  padding: 50px 40px 30px 40px;
-  min-height: 400px;
-}
-
 .owl-carousel .owl-item {
   float: left;
   width: 100%;
 }
 
-#testimonial .owl-dots {
-  text-align: left;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: var(--main-green);
 }
 
-#testimonial-carousel img {
-  border: 2px solid #ffffff;
-  margin: 0 0 20px 0;
-  width: auto;
+#where {
+  height: 680px;
 }
 
-#testimonial .owl-theme .owl-controls {
-  text-align: left;
+.where {
+  position: absolute;
+  width: 100%;
+  left: 0px;
 }
 
-#sponsors {
-  padding: 70px 0 90px 0;
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-.sponsor {
-  border: 2px solid var(--main-green);
-  margin: 0 5px;
-  padding: 10px;
-  text-align: center;
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
 }
 
-#gmap {
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#map {
   position: relative;
   padding-bottom: 14%;
-  height: 0;
-  overflow: hidden;
+  height: 500px;
+  overflow: hidden !important;
   max-width: 100%;
-}
-
-#gmap iframe,
-#gmap object,
-#gmap embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .subfooter {
@@ -374,7 +366,7 @@ h5 {
   text-transform: uppercase;
 }
 
-.list-inline > li {
+.list-inline>li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
