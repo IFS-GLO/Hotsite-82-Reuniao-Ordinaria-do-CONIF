@@ -152,13 +152,13 @@ h5 {
   color: var(--main-green);
 }
 
-#speakers {
+#participants {
   background: #f5f5f5;
   border-top: 1px solid #f0f0f0;
   padding: 70px 0 90px 0;
 }
 
-.speaker h5:after {
+.participant h5:after {
   content: "";
   display: block;
   width: 40px;
@@ -169,13 +169,31 @@ h5 {
   margin-bottom: 5px;
 }
 
-.speaker .company {
+.participant .company {
   color: #999999;
   font-family: 'Open sans';
   font-size: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 0;
+}
+
+#tourism {
+  background: #f1c40f;
+  border-top: 1px solid #FFF;
+  padding: 70px 0 90px 0;
+}
+
+#tourism h2 {
+  color: #FFF;
+}
+
+#tourism .lead {
+  color: #ecf0f1;
+}
+
+#tourism a {
+  color: #000;
 }
 
 #program {
