@@ -1,3 +1,9 @@
+# App files
+app/node_modules/
+app/platforms/
+app/plugins/
+app/res/
+
 package-lock.json
 
 # Dist files

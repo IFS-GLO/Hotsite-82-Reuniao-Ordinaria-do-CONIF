@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>CONIF 82 App</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+  </head>
+  <body>
+    <script>
+      document.addEventListener("deviceready", onDeviceReady, false);
+      function onDeviceReady() {
+        window.open = cordova.InAppBrowser.open('https://aplicacoes.ifs.edu.br/conif82/', '_self', 'location=no');
+      }
+    </script>
+  </body>
+</html>
