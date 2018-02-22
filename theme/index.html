@@ -23,7 +23,7 @@
       </button>
         <div class="row container">
           <div class="col-md-4 text-center">
-            <a class="navbar-brand" href="#">Logo aqui</a>
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="dist/img/logo.jpeg" /></a>
           </div>
           <div class="col-md-5">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -541,6 +541,7 @@
         autoplay: true,
         autoplayTimeout: 3000,
       })
+
       $('#countdown').countdown('2018/03/13', function(event) {
         $('.cd-day').html(event.strftime('%D'));
         $('.cd-hour').html(event.strftime('%H'));
@@ -588,8 +589,10 @@
         wS = $(this).scrollTop();
       if (wS > hT) {
         $('#nav-countdown .row').fadeIn(500);
+        $('.navbar-brand').css('max-width', '20%');
       } else {
         $('#nav-countdown .row').fadeOut(500);
+        $('.navbar-brand').css('max-width', '65%');
       }
     });
   </script>

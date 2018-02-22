@@ -64,16 +64,21 @@ h4, h5 {
 }
 
 #sticker {
-  background: #262626;
+  background: #FFF;
   z-index: 2;
   position: fixed;
   width: 100%;
 }
 
+.navbar-brand {
+  max-width: 65%;
+}
+
 .navbar-nav .nav-link {
   font-family: 'Open sans';
-  color: #FFF;
+  color: #262626;
   text-transform: uppercase;
+  font-size: 1.0rem;
 }
 
 .navbar-nav .nav-link.active {
@@ -89,7 +94,7 @@ h4, h5 {
 }
 
 #nav-countdown {
-  color: #FFF !important;
+  color: #262626 !important;
   font-size: 14px;
 }
 
